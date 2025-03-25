@@ -1,4 +1,4 @@
-# Bookfields Flutter
+# Bookfields - Ứng Dụng Đặt Sân Bóng
 
 <p align="center">
   <img src="assets/logo.png" alt="Bookfields Logo" width="200"/>
@@ -6,24 +6,25 @@
 
 ## 📖 Giới thiệu
 
-Bookfields là ứng dụng di động được phát triển bằng Flutter, giúp người dùng quản lý sách, khám phá tác phẩm mới và theo dõi quá trình đọc sách. Ứng dụng cung cấp trải nghiệm đọc sách liền mạch trên cả nền tảng Android và iOS.
+Bookfields là ứng dụng đặt sân bóng được phát triển bằng Flutter, giúp người dùng dễ dàng tìm kiếm, đặt và quản lý lịch đặt sân bóng. Ứng dụng cung cấp trải nghiệm mượt mà trên cả nền tảng Android và iOS, kết nối người chơi và các cơ sở sân bóng một cách hiệu quả.
 
 ## ✨ Tính năng
 
-- **Quản lý thư viện sách**: Thêm, sắp xếp, và quản lý bộ sưu tập sách của bạn
-- **Theo dõi tiến độ đọc**: Cập nhật tiến độ đọc và đặt mục tiêu
-- **Khám phá sách mới**: Tìm kiếm và duyệt qua các đề xuất theo thể loại, tác giả
-- **Đánh giá và ghi chú**: Thêm đánh giá và ghi chú cá nhân cho mỗi quyển sách
-- **Đồng bộ đa thiết bị**: Đồng bộ hóa dữ liệu giữa các thiết bị
-- **Chế độ ngoại tuyến**: Truy cập thông tin sách đã lưu ngay cả khi không có kết nối mạng
+- **Tìm kiếm sân bóng**: Tìm kiếm sân bóng gần vị trí hiện tại hoặc khu vực mong muốn
+- **Đặt sân trực tuyến**: Đặt sân nhanh chóng với các khung giờ linh hoạt
+- **Thanh toán đa dạng**: Hỗ trợ nhiều phương thức thanh toán an toàn
+- **Quản lý lịch đặt**: Theo dõi, chỉnh sửa hoặc hủy lịch đặt sân
+- **Đánh giá và nhận xét**: Đánh giá chất lượng sân sau khi sử dụng
+- **Tìm đồng đội**: Kết nối với người chơi khác để tổ chức trận đấu
+- **Thông báo**: Nhận thông báo về lịch đặt sân và khuyến mãi
 
 ## 📱 Ảnh chụp màn hình
 
 <p align="center">
   <img src="screenshots/home_screen.png" width="200" alt="Màn hình chính"/>
-  <img src="screenshots/library_screen.png" width="200" alt="Thư viện"/>
-  <img src="screenshots/book_details.png" width="200" alt="Chi tiết sách"/>
-  <img src="screenshots/reading_progress.png" width="200" alt="Tiến độ đọc"/>
+  <img src="screenshots/field_search.png" width="200" alt="Tìm kiếm sân"/>
+  <img src="screenshots/field_details.png" width="200" alt="Chi tiết sân"/>
+  <img src="screenshots/booking_calendar.png" width="200" alt="Lịch đặt sân"/>
 </p>
 
 ## 🚀 Bắt đầu
@@ -62,10 +63,11 @@ flutter run
 
 - **Flutter**: Framework UI đa nền tảng
 - **Dart**: Ngôn ngữ lập trình chính
-- **Provider**: Quản lý trạng thái
-- **Firebase**: Xác thực, cơ sở dữ liệu và lưu trữ
-- **Hive**: Cơ sở dữ liệu cục bộ cho chế độ ngoại tuyến
-- **Dio**: HTTP client cho việc gọi API
+- **Provider/Bloc**: Quản lý trạng thái
+- **Firebase**: Xác thực, cơ sở dữ liệu và thông báo đẩy
+- **Google Maps API**: Hiển thị bản đồ và vị trí sân bóng
+- **Stripe/PayPal**: Tích hợp thanh toán
+- **Dio/HTTP**: Gọi API đến máy chủ
 
 ## 📂 Cấu trúc dự án
 
@@ -73,12 +75,12 @@ flutter run
 lib/
 ├── api/                  # Lớp dịch vụ API và các hàm gọi mạng
 ├── models/               # Các lớp đối tượng dữ liệu
-├── providers/            # State management
+├── blocs/                # State management (Bloc pattern)
 ├── screens/              # Các màn hình ứng dụng
 ├── utils/                # Tiện ích và hàm trợ giúp
 ├── widgets/              # Widget tái sử dụng
 ├── theme/                # Chủ đề và styles
-├── routes.dart           # Định nghĩa điều hướng
+├── navigation/           # Điều hướng và routes
 └── main.dart             # Điểm khởi chạy ứng dụng
 ```
 
@@ -101,3 +103,5 @@ Dự án này được phân phối dưới Giấy phép MIT. Xem file `LICENSE`
 Quang Zero - [GitHub](https://github.com/quangzeros)
 
 Link dự án: [https://github.com/quangzeros/bookfields-flutter](https://github.com/quangzeros/bookfields-flutter)
+
+*Cập nhật lần cuối: 2025-03-25*
