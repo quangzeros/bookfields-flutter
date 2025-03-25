@@ -1,9 +1,5 @@
 # Bookfields - Ứng Dụng Đặt Sân Bóng
 
-<p align="center">
-  <img src="assets/logo.png" alt="Bookfields Logo" width="200"/>
-</p>
-
 ## 📖 Giới thiệu
 
 Bookfields là ứng dụng đặt sân bóng được phát triển bằng Flutter, giúp người dùng dễ dàng tìm kiếm, đặt và quản lý lịch đặt sân bóng. Ứng dụng cung cấp trải nghiệm mượt mà trên cả nền tảng Android và iOS, kết nối người chơi và các cơ sở sân bóng một cách hiệu quả.
@@ -20,12 +16,16 @@ Bookfields là ứng dụng đặt sân bóng được phát triển bằng Flut
 
 ## 📱 Ảnh chụp màn hình
 
-<p align="center">
-  <img src="screenshots/home_screen.png" width="200" alt="Màn hình chính"/>
-  <img src="screenshots/field_search.png" width="200" alt="Tìm kiếm sân"/>
-  <img src="screenshots/field_details.png" width="200" alt="Chi tiết sân"/>
-  <img src="screenshots/booking_calendar.png" width="200" alt="Lịch đặt sân"/>
-</p>
+![screenshot-2025-03-25_18 49 54 083](https://github.com/user-attachments/assets/aba77042-2a1c-4c86-a00d-dedc1c06d7b7)
+![screenshot-2025-03-25_18 51 21 241](https://github.com/user-attachments/assets/434f4df5-eb7a-4b3c-8ed6-b74a30fe2d75)
+![screenshot-2025-03-25_18 51 27 271](https://github.com/user-attachments/assets/cb56155a-4448-414a-a88c-b4c7884d93bd)
+![screenshot-2025-03-25_18 51 34 22](https://github.com/user-attachments/assets/f6e27d8c-dd2c-41bc-ae09-9b8b7d5a3335)
+![screenshot-2025-03-25_18 51 41 097](https://github.com/user-attachments/assets/a6e441dc-0606-49c1-8cc3-63b64c9ba737)
+![screenshot-2025-03-25_18 52 03 66](https://github.com/user-attachments/assets/200d7ca5-5401-4d07-875b-eb5211e67c95)
+![screenshot-2025-03-25_18 52 11 488](https://github.com/user-attachments/assets/10022029-a908-467c-9941-f8eb23ccef46)
+
+
+
 
 ## 🚀 Bắt đầu
 
